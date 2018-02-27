@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GoogleMapControl v1.9.3", ".", "{29DD3FEE-0A52-4FD5-965F-DDA81B0CBA53}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/GoogleMapControl v1.9.3"
+		Debug.AspNetCompiler.PhysicalPath = "..\gogol\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\GoogleMapControl v1.9.3\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/GoogleMapControl v1.9.3"
+		Release.AspNetCompiler.PhysicalPath = "..\gogol\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\GoogleMapControl v1.9.3\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63110"
+		SlnRelativePath = "..\gogol\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29DD3FEE-0A52-4FD5-965F-DDA81B0CBA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DD3FEE-0A52-4FD5-965F-DDA81B0CBA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

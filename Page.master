@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Page.master.cs" Inherits="Page" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+    
+    </title>  
+      <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="StyleSheet/Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body oncontextmenu="false;">
+    <form id="form1" runat="server">
+        <div oncontextmenu=" return true;">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">gps EDD</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="gpsTest.aspx">Home</a></li>
+                        <li class="active"><a href="visua.aspx">visualisation</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            
+        </asp:ContentPlaceHolder>
+  
+    </form>
+</body>
+
+<script type="text/javascript">
+
+   
+</script> 
+
+</html>
